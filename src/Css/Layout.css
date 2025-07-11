@@ -1,0 +1,418 @@
+:root {
+  --font6: 3rem;
+  --font5: 2.4rem;
+  --font4: 1.8rem;
+  --font3: 1.2rem;
+  --font2: 1rem;
+  --font1: 0.85rem;
+  --font0: 0.4rem;
+
+  --space5: 3rem;
+  --space4: 2.4rem;
+  --space3: 1.8rem;
+  --space2: 1.2rem;
+  --space1: 0.6rem;
+  --space0: 0.4rem;
+
+  --bg-main: #e4e4e4;
+  --bg-contrast: #fff;
+  --text-main: #222;
+  --text-sub: #444;
+  --border-main: #111;
+
+  --point1: #313cff;
+  --point2: #ff496a;
+  --point3: #ffc531;
+  --point4: #7dffbe;
+  --point5: #ae34ff;
+
+  --grain-light: rgba(0, 0, 0, 0.08);
+}
+
+.font6 {
+  font-size: var(--font6);
+}
+
+.font5 {
+  font-size: var(--font5);
+}
+
+.font4 {
+  font-size: var(--font4);
+}
+
+.font3 {
+  font-size: var(--font3);
+}
+
+.font2 {
+  font-size: var(--font2);
+}
+
+.font1 {
+  font-size: var(--font1);
+}
+
+.point5 {
+  color: var(--point5) !important;
+}
+
+.point4 {
+  color: var(--point4) !important;
+}
+
+.point3 {
+  color: var(--point3) !important;
+}
+
+.point2 {
+  color: var(--point2) !important;
+}
+
+.point1 {
+  color: var(--point1) !important;
+}
+
+body {
+  background-color: #191b1f;
+  color: var(--text-main);
+  font-family: 'Inter', 'Pretendard', sans-serif;
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-main) var(--border-main);
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 100%;
+}
+
+/* 스크롤바의 너비 */
+*::-webkit-scrollbar-thumb {
+  height: 10%;
+  background-color: var(--border-main);
+  border-radius: 1rem;
+}
+
+/* 스크롤바의 길이 & 색상 */
+*::-webkit-scrollbar-track {
+  background-color: var(--bg-main);
+}
+
+::selection {
+  color: #fff;
+  background-color: var(--point3);
+}
+
+#Wrap {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.CardLayoutBorder {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  z-index: 99;
+  pointer-events: none;
+  transform: translateX(-50%);
+}
+
+.CardLayoutBorder::before {
+  position: absolute;
+  content: '';
+  max-width: calc(1440px + var(--space5) + var(--space5));
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+  top: 0;
+  left: 0;
+  border: var(--space5) solid var(--bg-main);
+  transform: translateX(-50%);
+}
+
+.CardLayoutBorder::after {
+  position: absolute;
+  content: '';
+  max-width: 1440px;
+  width: calc(100vw - var(--space5) - var(--space5));
+  height: calc(100vh - var(--space5) - var(--space5));
+  height: calc(100svh - var(--space5) - var(--space5));
+  top: var(--space5);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid var(--border-main);
+}
+
+.CardLayoutInner {
+  max-width: 1440px;
+  min-height: calc(100vh - var(--space5));
+  min-height: calc(100svh - var(--space5));
+  width: calc(100vw - var(--space5) - var(--space5));
+  padding: var(--space5) var(--space5) calc((var(--space5))*2);
+  margin: var(--space5) auto 0;
+  background-image: url('/src/Images/init/backgound_body.png');
+  background-repeat: repeat;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  /* left: var(--space5); */
+  left: 50%;
+  max-width: 1440px;
+  width: calc(100vw - var(--space5) - var(--space5));
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.headerWeather {
+  width: 100%;
+  height: var(--space5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font3);
+  line-height: 1;
+  color: var(--text-main);
+  font-weight: 550;
+}
+
+.headerWeather button.address {
+  margin-left: auto;
+}
+
+.weatherInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--space1);
+}
+
+nav.SideBar {
+  position: fixed;
+  top: var(--space5);
+  left: calc(50% + calc((var(--space5) - var(--font4))/2));
+  max-width: calc(1440px + var(--space5) + var(--space5));
+  width: 100vw;
+  z-index: 100;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+nav.SideBar .header_btn {
+  position: relative;
+  width: var(--font4);
+  height: var(--font4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  pointer-events: all;
+  overflow: hidden;
+}
+
+nav.SideBar .header_btn span {
+  position: relative;
+  width: 100%;
+  height: var(--font0);
+  display: block;
+  background-color: #111;
+  transition: all ease 0.5s;
+}
+
+nav.SideBar .header_btn span::before,
+nav.SideBar .header_btn span::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: var(--font0);
+  background-color: #111;
+  transition: all ease 0.5s;
+}
+
+nav.SideBar .header_btn span::before {
+  top: -10px;
+  left: 0;
+}
+
+nav.SideBar .header_btn span::after {
+  bottom: -10px;
+  left: 0;
+}
+
+nav.SideBar .header_btn:is(.active) span {
+  background-color: transparent;
+}
+
+nav.SideBar .header_btn:is(.active) span::before {
+  top: 0;
+  transform: rotate(-0.125turn);
+}
+
+nav.SideBar .header_btn:is(.active) span::after {
+  bottom: 0;
+  transform: rotate(0.125turn);
+}
+
+nav.SideBar .header_menu {
+  display: none;
+  width: auto;
+  pointer-events: all;
+}
+
+nav.SideBar .header_menu.active {
+  display: inline-block;
+}
+
+nav.SideBar .header_menu li {
+  padding: var(--space0) 0;
+}
+
+nav.SideBar .header_menu li a {
+  display: block;
+  color: var(--text-main);
+  font-size: var(--font4);
+  line-height: 1;
+  font-weight: 500;
+}
+
+nav.SideBar .header_menu li .icon {
+  position: relative;
+}
+
+/* nav.SideBar .header_menu li .icon::after {
+  position: absolute;
+  content: attr(data-name);
+  top: 0;
+  left: calc(100% + calc(var(--space5) - var(--font4)));
+  background-color: var(--bg-main);
+  height: var(--font4);
+  transition: all ease 0.5s;
+}
+
+nav.SideBar .header_menu li:hover .icon::after {
+  position: absolute;
+  content: attr(data-name);
+  height: 100%;
+  font-size: var(--font4);
+  line-height: 1;
+  left: calc(100% + calc(var(--space5) - var(--font4)));
+  top: 0;
+} */
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  :root {
+    --font6: 2.7rem;
+    --font5: 2.1rem;
+    --font4: 1.6rem;
+    --font3: 1.05rem;
+    --font2: 0.9rem;
+    --font1: 0.75rem;
+
+    --space5: 2.7rem;
+    --space4: 2.1rem;
+    --space3: 1.6rem;
+    --space2: 1.05rem;
+    --space1: 0.5rem;
+    --space0: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  :root {
+    --font6: 2.4rem;
+    --font5: 1.8rem;
+    --font4: 1.35rem;
+    --font3: 0.95rem;
+    --font2: 0.85rem;
+    --font1: 0.7rem;
+
+    --space5: 2.4rem;
+    --space4: 1.8rem;
+    --space3: 1.35rem;
+    --space2: 0.9rem;
+    --space1: 0.4rem;
+    --space0: 0.25rem;
+  }
+
+  nav.SideBar .header_btn span,
+  nav.SideBar .header_btn span::before, 
+  nav.SideBar .header_btn span::after {
+    height: calc((var(--font0) / 2));
+  }
+
+  
+
+  nav.SideBar .header_btn span::before {
+    top: calc((var(--font0) * 1));
+  }
+
+  nav.SideBar .header_btn span::after {
+    bottom: calc((var(--font0) * 1));
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  :root {
+    --font6: 2.1rem;
+    --font5: 1.5rem;
+    --font4: 1.1rem;
+    --font3: 0.85rem;
+    --font2: 0.7rem;
+    --font1: 0.6rem;
+
+    --space5: 2.1rem;
+    --space4: 1.5rem;
+    --space3: 1.1rem;
+    --space2: 0.75rem;
+    --space1: 0.3rem;
+    --space0: 0.18rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  :root {
+    --font6: 1.7rem;
+    --font5: 1.2rem;
+    --font4: 0.95rem;
+    --font3: 0.75rem;
+    --font2: 0.6rem;
+    --font1: 0.52rem;
+
+    --space5: 1.7rem;
+    --space4: 1.2rem;
+    --space3: 0.95rem;
+    --space2: 0.6rem;
+    --space1: 0.2rem;
+    --space0: 0.12rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  :root {
+    --font6: 1.5rem;
+    --font5: 1rem;
+    --font4: 0.85rem;
+    --font3: 0.68rem;
+    --font2: 0.52rem;
+    --font1: 0.44rem;
+    --font0: 0.3rem;
+
+    --space5: 1.2rem;
+    --space4: 0.8rem;
+    --space3: 0.6rem;
+    --space2: 0.35rem;
+    --space1: 0.12rem;
+    --space0: 0.08rem;
+  }
+}
