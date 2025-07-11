@@ -7,4 +7,5 @@ export default defineConfig({
   server: {
     port: 5173, // 원하는 포트 고정
   },
+  base: '/portfolio/',
 })

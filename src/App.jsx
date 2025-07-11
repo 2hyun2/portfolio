@@ -18,7 +18,7 @@ import './Css/Sub.css'
 function App() {
   return (
     <ListProvider>
-      <Router>
+      <Router basename="/portfolio">
         <Header />
         <SideBar />
         <CardLayout>

@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect } from 'react';
-import listData from '/src/Json/lists.json';
+// import listData from '/src/Json/lists.json';
+import listData from '../Json/lists.json';
 
 const ListContext = createContext();
 
