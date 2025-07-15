@@ -31,7 +31,6 @@ const Projects = () => {
         };
     }, [popup]);
 
-    // 카테고리 필터링
     const filteredList = listData
         .filter(item =>
             selectedCategory === "전체"
@@ -45,9 +44,13 @@ const Projects = () => {
 
     return (
         <>
-            <h1>Projects</h1>
 
-            {/* 카테고리 버튼 영역 */}
+            <h1 className="sub_title">프로젝트</h1>
+            <div className="sub_intro">
+                지금은 사라진 프로젝트를 포함해 총 70여 개 이상의 프로젝트를 90% 이상 혼자서 작업하였으며, <br className="mmVar" />
+                특히 PHP 그누보드 기반 프로젝트의 경우 개발까지 직접 완료한 경험이 있습니다.
+            </div>
+
             <div className="projects_categories">
                 {categories.map(cat =>
                     <button

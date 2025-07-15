@@ -10,7 +10,7 @@ const Home = () => {
           <h4 className="font3">Publishing & Developer</h4>
         </div>
         <ul className="main_left_links">
-          {/* <li><Link to='/about'>Info</Link></li> */}
+          <li><Link to='/about'>Info</Link></li>
           <li><Link to='/projects'>Projects</Link></li>
           <li><Link to='/contact'>Contact</Link></li>
         </ul>

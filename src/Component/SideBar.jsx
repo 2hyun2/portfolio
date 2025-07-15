@@ -14,7 +14,7 @@ function SideBar() {
             </div>
             <ul className={`header_menu ${hamburger ? "active" : ""}`}>
                 <li><Link to="/"><div className="icon" data-name='Home'><FiHome /></div></Link></li>
-                {/* <li><Link to="/about"><div className="icon" data-name='About'><FiUser /></div></Link></li> */}
+                <li><Link to="/about"><div className="icon" data-name='About'><FiUser /></div></Link></li>
                 <li><Link to="/projects"><div className="icon" data-name='Projects'><FiLayers /></div></Link></li>
                 <li><Link to="/contact"><div className="icon" data-name='Contact'><FiMail /></div></Link></li>
             </ul>

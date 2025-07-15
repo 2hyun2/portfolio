@@ -2,7 +2,7 @@
   {
     "name": "에브리봇",
     "url": "https://everybot.co.kr/",
-    "ogImage": "../images/og/og_에브리봇.jpg",
+    "ogImage": "/portfolio/og/og_에브리봇.jpg",
     "date": "",
     "contribution": {
       "publishing": "100",
@@ -13,7 +13,7 @@
   {
     "name": "이모셔널인사이트",
     "url": "http://emoins.com/",
-    "ogImage": "../images/og/og_이모셔널.jpg",
+    "ogImage": "/portfolio/og/og_이모셔널.jpg",
     "date": "2022-08-02",
     "contribution": {
       "publishing": "100",
@@ -24,7 +24,7 @@
   {
     "name": "상표원",
     "url": "http://tmchung.com/",
-    "ogImage": "../images/og/og_상표원.jpg",
+    "ogImage": "/portfolio/og/og_상표원.jpg",
     "date": "",
     "contribution": {
       "publishing": "100",
@@ -35,7 +35,7 @@
   {
     "name": "날리지웍스",
     "url": "http://www.knowledgeworks.co.kr/",
-    "ogImage": "../images/og/og_날리지웍스.jpg",
+    "ogImage": "/portfolio/og/og_날리지웍스.jpg",
     "date": "2022-10-05",
     "contribution": {
       "publishing": "100",
@@ -46,7 +46,7 @@
   {
     "name": "E&B 정보통신",
     "url": "http://enbtele.co.kr/",
-    "ogImage": "../images/og/og_이엔비정보통신.jpg",
+    "ogImage": "/portfolio/og/og_이엔비정보통신.jpg",
     "date": "2022-11-02",
     "contribution": {
       "publishing": "100",
@@ -57,7 +57,7 @@
   {
     "name": "STR",
     "url": "http://strcoffee.com/",
-    "ogImage": "../images/og/og_에스티알.jpg",
+    "ogImage": "/portfolio/og/og_에스티알.jpg",
     "date": "2022-11-10",
     "contribution": {
       "publishing": "100",
@@ -68,7 +68,7 @@
   {
     "name": "넬라펫",
     "url": "https://nellapet.com/",
-    "ogImage": "../images/og/og_넬라펫.jpg",
+    "ogImage": "/portfolio/og/og_넬라펫.jpg",
     "date": "",
     "contribution": {
       "publishing": "100",
@@ -79,7 +79,7 @@
   {
     "name": "유트립 (Utrip RPA)",
     "url": "https://utriprpa.com/",
-    "ogImage": "../images/og/og_유트립.png",
+    "ogImage": "/portfolio/og/og_유트립.png",
     "date": "2022-11-21",
     "contribution": {
       "publishing": "100",
@@ -90,7 +90,7 @@
   {
     "name": "히즈윌",
     "url": "http://hiswillpharm.com/",
-    "ogImage": "../images/og/og_히즈윌.jpg",
+    "ogImage": "/portfolio/og/og_히즈윌.jpg",
     "date": "2022-12-05",
     "contribution": {
       "publishing": "100",
@@ -101,7 +101,7 @@
   {
     "name": "노가리앤비어",
     "url": "http://nogarinbeer.co.kr/",
-    "ogImage": "../images/og/og_노가리앤비어.png",
+    "ogImage": "/portfolio/og/og_노가리앤비어.png",
     "date": "2022-12-15",
     "contribution": {
       "publishing": "100",
@@ -112,7 +112,7 @@
   {
     "name": "한성분체기계",
     "url": "http://www.hspm.co.kr/",
-    "ogImage": "../images/og/og_한성분체기계.png",
+    "ogImage": "/portfolio/og/og_한성분체기계.png",
     "date": "2022-12-21",
     "contribution": {
       "publishing": "100",
@@ -123,7 +123,7 @@
   {
     "name": "ELEXSEN (엘렉센)",
     "url": "http://elexsen.com/",
-    "ogImage": "../images/og/og_엘렉센.png",
+    "ogImage": "/portfolio/og/og_엘렉센.png",
     "date": "2023-01-09",
     "contribution": {
       "publishing": "100",
@@ -134,7 +134,7 @@
   {
     "name": "성신전기로",
     "url": "http://isseco.iceserver.co.kr/",
-    "ogImage": "../images/og/og_성신전기로.png",
+    "ogImage": "/portfolio/og/og_성신전기로.png",
     "date": "2023-01-31",
     "contribution": {
       "publishing": "100",
@@ -145,7 +145,7 @@
   {
     "name": "해림기술단",
     "url": "http://haelimeng.com/",
-    "ogImage": "../images/og/og_해림기술단.png",
+    "ogImage": "/portfolio/og/og_해림기술단.png",
     "date": "2023-02-10",
     "contribution": {
       "publishing": "100",
@@ -156,7 +156,7 @@
   {
     "name": "웰튼병원",
     "url": "https://wellton.co.kr/",
-    "ogImage": "../images/og/og_웰튼병원.jpg",
+    "ogImage": "/portfolio/og/og_웰튼병원.jpg",
     "date": "2023-02-15",
     "contribution": {
       "publishing": "50",
@@ -167,7 +167,7 @@
   {
     "name": "제이랩 (JLab)",
     "url": "http://jlab.iceserver.co.kr/",
-    "ogImage": "../images/og/og_제이랩.jpg",
+    "ogImage": "/portfolio/og/og_제이랩.jpg",
     "date": "2023-02-23",
     "contribution": {
       "publishing": "100",
@@ -178,7 +178,7 @@
   {
     "name": "트라이엄프",
     "url": "http://tryump.iceserver.co.kr/",
-    "ogImage": "../images/og/og_트라이엄프.jpg",
+    "ogImage": "/portfolio/og/og_트라이엄프.jpg",
     "date": "2023-03-07",
     "contribution": {
       "publishing": "100",
@@ -189,7 +189,7 @@
   {
     "name": "샐러드박스 ",
     "url": "http://www.saladbox.kr/",
-    "ogImage": "../images/og/og_샐러드박스.png",
+    "ogImage": "/portfolio/og/og_샐러드박스.png",
     "date": "2023-03-14",
     "contribution": {
       "publishing": "100",
@@ -200,7 +200,7 @@
   {
     "name": "일일커피 ",
     "url": "http://www.11coffee.co.kr/",
-    "ogImage": "../images/og/og_일일커피.png",
+    "ogImage": "/portfolio/og/og_일일커피.png",
     "date": "2023-04-05",
     "contribution": {
       "publishing": "100",
@@ -211,7 +211,7 @@
   {
     "name": "엔에이치씨바이오텍 ",
     "url": "http://nhcbio.cafe24.com/",
-    "ogImage": "../images/og/og_엔에이치씨바이오텍.png",
+    "ogImage": "/portfolio/og/og_엔에이치씨바이오텍.png",
     "date": "2023-04-20",
     "contribution": {
       "publishing": "100",
@@ -222,7 +222,7 @@
   {
     "name": "동양기전 ",
     "url": "http://www.dyparking.co.kr/",
-    "ogImage": "../images/og/og_동양기전.png",
+    "ogImage": "/portfolio/og/og_동양기전.png",
     "date": "2023-04-24",
     "contribution": {
       "publishing": "100",
@@ -233,7 +233,7 @@
   {
     "name": "아페로스 ",
     "url": "http://aperos.co.kr/",
-    "ogImage": "../images/og/og_아페로스.png",
+    "ogImage": "/portfolio/og/og_아페로스.png",
     "date": "2023-05-03",
     "contribution": {
       "publishing": "100",
@@ -244,7 +244,7 @@
   {
     "name": "한국방송채널사용사업협회 ",
     "url": "http://ppak.or.kr/",
-    "ogImage": "../images/og/og_한국방송채널사용사업협회.png",
+    "ogImage": "/portfolio/og/og_한국방송채널사용사업협회.png",
     "date": "2023-05-09",
     "contribution": {
       "publishing": "100",
@@ -255,7 +255,7 @@
   {
     "name": "업라이트컨설팅 ",
     "url": "http://upright.co.kr/",
-    "ogImage": "../images/og/og_업라이트컨설팅.png",
+    "ogImage": "/portfolio/og/og_업라이트컨설팅.png",
     "date": "2023-05-12",
     "contribution": {
       "publishing": "100",
@@ -266,7 +266,7 @@
   {
     "name": "마이네에어 ",
     "url": "http://meineair.iceserver.co.kr/",
-    "ogImage": "../images/og/og_마이네에어.png",
+    "ogImage": "/portfolio/og/og_마이네에어.png",
     "date": "2023-05-18",
     "contribution": {
       "publishing": "100",
@@ -277,7 +277,7 @@
   {
     "name": "GS 자이 석고보드",
     "url": "http://xi.b-link.co.kr/",
-    "ogImage": "../images/og/og_자이천연석고보드.jpg",
+    "ogImage": "/portfolio/og/og_자이천연석고보드.jpg",
     "date": "2023-05-23",
     "contribution": {
       "publishing": "100",
@@ -288,7 +288,7 @@
   {
     "name": "사단법인동물권 한스",
     "url": "http://www.animalhans.com/",
-    "ogImage": "../images/og/og_사단법인동물권한스.jpg",
+    "ogImage": "/portfolio/og/og_사단법인동물권한스.jpg",
     "date": "2023-06-03",
     "contribution": {
       "publishing": "100",
@@ -299,7 +299,7 @@
   {
     "name": "마디튼튼재활의학과 ",
     "url": "http://www.maditntn.kr/",
-    "ogImage": "../images/og/og_마디튼튼재활의학과.jpg",
+    "ogImage": "/portfolio/og/og_마디튼튼재활의학과.jpg",
     "date": "2023-06-16",
     "contribution": {
       "publishing": "100",
@@ -310,7 +310,7 @@
   {
     "name": "위니치에스앤디 ",
     "url": "http://wineach.kr/",
-    "ogImage": "../images/og/og_위니치에스앤디.jpg",
+    "ogImage": "/portfolio/og/og_위니치에스앤디.jpg",
     "date": "2023-06-23",
     "contribution": {
       "publishing": "100",
@@ -321,7 +321,7 @@
   {
     "name": "제이큐브아이앤씨 ",
     "url": "http://www.daycus.com/ko/",
-    "ogImage": "../images/og/og_데이커스.png",
+    "ogImage": "/portfolio/og/og_데이커스.png",
     "date": "2023-07-06",
     "contribution": {
       "publishing": "100",
@@ -332,7 +332,7 @@
   {
     "name": "이뮤즈테라퓨틱스 ",
     "url": "http://immusetx.com/",
-    "ogImage": "../images/og/og_이뮤즈테라퓨틱스.png",
+    "ogImage": "/portfolio/og/og_이뮤즈테라퓨틱스.png",
     "date": "2023-07-13",
     "contribution": {
       "publishing": "100",
@@ -343,7 +343,7 @@
   {
     "name": "유학앤교육캐나다 ",
     "url": "http://ca-uhakne.com/",
-    "ogImage": "../images/og/og_유학앤교육캐나다.png",
+    "ogImage": "/portfolio/og/og_유학앤교육캐나다.png",
     "date": "2023-07-19",
     "contribution": {
       "publishing": "100",
@@ -354,7 +354,7 @@
   {
     "name": "코리아싸인 ",
     "url": "http://www.koreasign.co.kr/",
-    "ogImage": "../images/og/og_코리아싸인.png",
+    "ogImage": "/portfolio/og/og_코리아싸인.png",
     "date": "2023-08-07",
     "contribution": {
       "publishing": "100",
@@ -365,7 +365,7 @@
   {
     "name": "카페 로그 (북카페)",
     "url": "http://logcafe.co.kr/",
-    "ogImage": "../images/og/og_카페로그.jpg",
+    "ogImage": "/portfolio/og/og_카페로그.jpg",
     "date": "2023-08-09",
     "contribution": {
       "publishing": "100",
@@ -376,7 +376,7 @@
   {
     "name": "동양특수금속 ",
     "url": "http://www.dongyangmetal.co.kr/",
-    "ogImage": "../images/og/og_동양특수금속.jpg",
+    "ogImage": "/portfolio/og/og_동양특수금속.jpg",
     "date": "2023-08-17",
     "contribution": {
       "publishing": "100",
@@ -387,7 +387,7 @@
   {
     "name": "국제표준인증원 ",
     "url": "http://www.iscqa.com/",
-    "ogImage": "../images/og/og_국제인증표준원.png",
+    "ogImage": "/portfolio/og/og_국제인증표준원.png",
     "date": "2023-09-07",
     "contribution": {
       "publishing": "100",
@@ -398,7 +398,7 @@
   {
     "name": "ORLIC ",
     "url": "http://orlic.co.kr/ko/",
-    "ogImage": "../images/og/og_올릭.jpg",
+    "ogImage": "/portfolio/og/og_올릭.jpg",
     "date": "2023-09-18",
     "contribution": {
       "publishing": "100",
@@ -409,7 +409,7 @@
   {
     "name": "대한사회복지회 ",
     "url": "https://kws.or.kr/",
-    "ogImage": "../images/og/og_대한사회복지회.jpg",
+    "ogImage": "/portfolio/og/og_대한사회복지회.jpg",
     "date": "2023-09-26",
     "contribution": {
       "publishing": "40",
@@ -420,7 +420,7 @@
   {
     "name": "천지인바이오텍 ",
     "url": "http://www.chunjiinbt.com/",
-    "ogImage": "../images/og/og_천지인바이오텍.jpg",
+    "ogImage": "/portfolio/og/og_천지인바이오텍.jpg",
     "date": "2023-10-20",
     "contribution": {
       "publishing": "100",
@@ -431,7 +431,7 @@
   {
     "name": "WINNING.I SOLUTION",
     "url": "http://winsolution.iceserver.co.kr/",
-    "ogImage": "../images/og/og_위닝아이솔루션.jpg",
+    "ogImage": "/portfolio/og/og_위닝아이솔루션.jpg",
     "date": "2023-10-23",
     "contribution": {
       "publishing": "100",
@@ -442,7 +442,7 @@
   {
     "name": "SCL (에스씨엘)",
     "url": "http://www.iscl.co.kr/",
-    "ogImage": "../images/og/og_에스씨엘.jpg",
+    "ogImage": "/portfolio/og/og_에스씨엘.jpg",
     "date": "2023-11-07",
     "contribution": {
       "publishing": "100",
@@ -453,7 +453,7 @@
   {
     "name": "AlignPartners (얼라인파트너즈)",
     "url": "https://alignpartnerscap.com/",
-    "ogImage": "../images/og/og_얼라인파트너즈.jpg",
+    "ogImage": "/portfolio/og/og_얼라인파트너즈.jpg",
     "date": "2023-11-15",
     "contribution": {
       "publishing": "100",
@@ -464,7 +464,7 @@
   {
     "name": "ISAAC (이삭)",
     "url": "http://isaaccorp.co.kr/",
-    "ogImage": "../images/og/og_이삭.jpg",
+    "ogImage": "/portfolio/og/og_이삭.jpg",
     "date": "2023-11-22",
     "contribution": {
       "publishing": "100",
@@ -475,7 +475,7 @@
   {
     "name": "코뿔소 (KOFULSO)",
     "url": "https://kofulso.co.kr/",
-    "ogImage": "../images/og/og_코뿔소.jpg",
+    "ogImage": "/portfolio/og/og_코뿔소.jpg",
     "date": "2023-11-28",
     "contribution": {
       "publishing": "100",
@@ -486,7 +486,7 @@
   {
     "name": "두원보틀링 ",
     "url": "http://bottling.kr/",
-    "ogImage": "../images/og/og_두원보틀링.jpg",
+    "ogImage": "/portfolio/og/og_두원보틀링.jpg",
     "date": "2023-12-04",
     "contribution": {
       "publishing": "100",
@@ -497,7 +497,7 @@
   {
     "name": "PHYCHIPS (파이칩스)",
     "url": "http://phychips12.cafe24.com/",
-    "ogImage": "../images/og/og_파이칩스.jpg",
+    "ogImage": "/portfolio/og/og_파이칩스.jpg",
     "date": "2023-12-06",
     "contribution": {
       "publishing": "100",
@@ -508,7 +508,7 @@
   {
     "name": "태하 ",
     "url": "http://taeha.iceserver.co.kr/",
-    "ogImage": "../images/og/og_태하.jpg",
+    "ogImage": "/portfolio/og/og_태하.jpg",
     "date": "2023-12-22",
     "contribution": {
       "publishing": "100",
@@ -519,7 +519,7 @@
   {
     "name": "융복합연구센터 ",
     "url": "http://phcs.co.kr/",
-    "ogImage": "../images/og/og_보건사회환경시스템 융복합연구센터.jpg",
+    "ogImage": "/portfolio/og/og_보건사회환경시스템 융복합연구센터.jpg",
     "date": "2024-01-05",
     "contribution": {
       "publishing": "100",
@@ -530,7 +530,7 @@
   {
     "name": "공안과 ",
     "url": "https://kongeye.co.kr/",
-    "ogImage": "../images/og/og_공안과.jpg",
+    "ogImage": "/portfolio/og/og_공안과.jpg",
     "date": "2024-01-11",
     "contribution": {
       "publishing": "100",
@@ -541,7 +541,7 @@
   {
     "name": "레스토랑 로그 ",
     "url": "https://www.restaurantlog.co.kr/",
-    "ogImage": "../images/og/og_레스토랑로그.jpg",
+    "ogImage": "/portfolio/og/og_레스토랑로그.jpg",
     "date": "2024-02-20",
     "contribution": {
       "publishing": "100",
@@ -552,7 +552,7 @@
   {
     "name": "MZZ",
     "url": "https://www.mzz-club.com/",
-    "ogImage": "../images/og/og_엠제트제트.png",
+    "ogImage": "/portfolio/og/og_엠제트제트.png",
     "date": "2024-03-04",
     "contribution": {
       "publishing": "100",
@@ -563,7 +563,7 @@
   {
     "name": "ESCA",
     "url": "http://www.escacctv.com/",
-    "ogImage": "../images/og/og_에스카.jpg",
+    "ogImage": "/portfolio/og/og_에스카.jpg",
     "date": "2024-03-25",
     "contribution": {
       "publishing": "100",
@@ -574,7 +574,7 @@
   {
     "name": "센트럴흉부외과",
     "url": "http://www.koreavein.com/",
-    "ogImage": "../images/og/og_센트럴흉부외과.jpg",
+    "ogImage": "/portfolio/og/og_센트럴흉부외과.jpg",
     "date": "2024-04-02",
     "contribution": {
       "publishing": "100",
@@ -585,7 +585,7 @@
   {
     "name": "삼성중공업",
     "url": "http://www.samsungshi.com/",
-    "ogImage": "../images/og/og_삼성중공업.jpg",
+    "ogImage": "/portfolio/og/og_삼성중공업.jpg",
     "date": "2024-04-24",
     "contribution": {
       "publishing": "100",
@@ -596,7 +596,7 @@
   {
     "name": "무꿈사아카데미",
     "url": "https://mkacademy.kr/",
-    "ogImage": "../images/og/og_무꿈사아카데미.jpg",
+    "ogImage": "/portfolio/og/og_무꿈사아카데미.jpg",
     "date": "2024-05-13",
     "contribution": {
       "publishing": "100",
@@ -607,7 +607,7 @@
   {
     "name": "제이더블유",
     "url": "http://www.jwi.kr/)",
-    "ogImage": "../images/og/og_제이더블유.jpg",
+    "ogImage": "/portfolio/og/og_제이더블유.jpg",
     "date": "2024-05-15",
     "contribution": {
       "publishing": "100",
@@ -618,7 +618,7 @@
   {
     "name": "이니션",
     "url": "http://inition.kr/",
-    "ogImage": "../images/og/og_이니션.jpg",
+    "ogImage": "/portfolio/og/og_이니션.jpg",
     "date": "2024-05-22",
     "contribution": {
       "publishing": "100",
@@ -629,7 +629,7 @@
   {
     "name": "DNL Logis",
     "url": "https://dnl.dnllogis.com/",
-    "ogImage": "../images/og/og_디엔엘로지스.jpg",
+    "ogImage": "/portfolio/og/og_디엔엘로지스.jpg",
     "date": "2024-06-20",
     "contribution": {
       "publishing": "100",
@@ -640,7 +640,7 @@
   {
     "name": "밀키하우스",
     "url": "https://milkyhouse.co.kr/",
-    "ogImage": "../images/og/og_밀키하우스.jpg",
+    "ogImage": "/portfolio/og/og_밀키하우스.jpg",
     "date": "2024-07-31",
     "contribution": {
       "publishing": "100",
@@ -651,7 +651,7 @@
   {
     "name": "매커맥스",
     "url": "https://www.macomaex.com/",
-    "ogImage": "../images/og/og_매커맥스.jpg",
+    "ogImage": "/portfolio/og/og_매커맥스.jpg",
     "date": "2024-09-05",
     "contribution": {
       "publishing": "100",
@@ -662,7 +662,7 @@
   {
     "name": "그린피플",
     "url": "https://www.grpeople.co.kr/",
-    "ogImage": "../images/og/og_그린피플.jpg",
+    "ogImage": "/portfolio/og/og_그린피플.jpg",
     "date": "2024-09-20",
     "contribution": {
       "publishing": "100",
@@ -673,7 +673,7 @@
   {
     "name": "디엠뷰",
     "url": "http://dmview.iceserver.co.kr/",
-    "ogImage": "../images/og/og_디엠뷰.jpg",
+    "ogImage": "/portfolio/og/og_디엠뷰.jpg",
     "date": "2024-10-16",
     "contribution": {
       "publishing": "100",

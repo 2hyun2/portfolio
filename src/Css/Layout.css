@@ -84,6 +84,10 @@ body {
   overflow-x: hidden;
   scrollbar-width: thin;
   scrollbar-color: var(--bg-main) var(--border-main);
+  background-image: url('/portfolio/init/backgound_body.png');
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 1440px auto;
 }
 
 *::-webkit-scrollbar {
@@ -130,8 +134,7 @@ body {
   content: '';
   max-width: calc(1440px + var(--space5) + var(--space5));
   width: 100vw;
-  height: 100vh;
-  height: 100svh;
+  height: calc(var(--real-vh, 1vh) * 100);
   top: 0;
   left: 0;
   border: var(--space5) solid var(--bg-main);
@@ -143,8 +146,7 @@ body {
   content: '';
   max-width: 1440px;
   width: calc(100vw - var(--space5) - var(--space5));
-  height: calc(100vh - var(--space5) - var(--space5));
-  height: calc(100svh - var(--space5) - var(--space5));
+  height: calc(calc(var(--real-vh, 1vh) * 100) - var(--space5) - var(--space5));
   top: var(--space5);
   left: 50%;
   transform: translateX(-50%);
@@ -153,13 +155,11 @@ body {
 
 .CardLayoutInner {
   max-width: 1440px;
-  min-height: calc(100vh - var(--space5));
-  min-height: calc(100svh - var(--space5));
-  width: calc(100vw - var(--space5) - var(--space5));
-  padding: var(--space5) var(--space5) calc((var(--space5))*2);
+  width: 100%;
+  height: 100%;
+  padding: var(--space5) calc((var(--space5))*1);
+  /* padding: var(--space5); */
   margin: var(--space5) auto 0;
-  background-image: url('/src/Images/init/backgound_body.png');
-  background-repeat: repeat;
 }
 
 header {
@@ -310,6 +310,12 @@ nav.SideBar .header_menu li:hover .icon::after {
 
 
 
+@media only screen and (max-width: 1488px) {
+  .CardLayoutInner {
+    padding: var(--space5) calc((var(--space5))* 2);
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   :root {
     --font6: 2.7rem;
@@ -346,12 +352,12 @@ nav.SideBar .header_menu li:hover .icon::after {
   }
 
   nav.SideBar .header_btn span,
-  nav.SideBar .header_btn span::before, 
+  nav.SideBar .header_btn span::before,
   nav.SideBar .header_btn span::after {
     height: calc((var(--font0) / 2));
   }
 
-  
+
 
   nav.SideBar .header_btn span::before {
     top: calc((var(--font0) * 1));
@@ -378,6 +384,8 @@ nav.SideBar .header_menu li:hover .icon::after {
     --space1: 0.3rem;
     --space0: 0.18rem;
   }
+
+  .mmVar {display: none !important;}
 }
 
 @media only screen and (max-width: 480px) {

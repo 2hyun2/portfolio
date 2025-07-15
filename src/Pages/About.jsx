@@ -1,42 +1,65 @@
-import React from 'react';
-
-const skills = [
-    { name: 'HTML / CSS / SCSS', level: 95 },
-    { name: 'JavaScript (ES6+), TypeScript', level: 90 },
-    { name: 'React + Vite + Router', level: 88 },
-    { name: 'Git / GitHub', level: 85 },
-    { name: 'GSAP, IntersectionObserver', level: 80 }
-];
+import { useEffect } from 'react';
 
 const About = () => {
+
+    useEffect(() => {
+        const graphLi = document.querySelectorAll('ul.graph li')
+        graphLi.forEach((element) => {
+            const percent = element.getAttribute('data-graph');
+            element.style.setProperty('--graph-width', percent + '%');
+        })
+
+        return () => {
+
+        }
+    }, [])
+
+
     return (
-        <section className="about_me inner">
-            <h2 className="section_title">About Me</h2>
-
-            <div className="about_text">
-                <p>
-                    안녕하세요, 저는 퍼블리싱을 기반으로 React, Vite 등의 프론트엔드 기술을 활용하여 <br />
-                    사용자 중심의 웹을 만드는 개발자 <strong>정현</strong>입니다.
-                </p>
-                <p>
-                    디자인 시스템, 반응형 웹, 성능 최적화에 관심이 많으며, <br />
-                    62개 이상의 프로젝트를 단독 또는 팀으로 완성했습니다.
-                </p>
+        <section className="about">
+            <h1 className="sub_title">프로필</h1>
+            <div className="sub_intro">
+                안녕하세요, 이정현입니다.  <br />
+                그동안 주로 디자이너 분들의 결과물을 바탕으로 작업해왔지만, <br className="mmVar" />
+                이번 포트폴리오는 직접 디자인부터 개발까지 모두 도전해 보았습니다. <br />
+                부족한 부분이 있을 수 있지만, 따뜻한 시선으로 봐주시면 감사하겠습니다.
             </div>
+            <div className="about_contents">
+                <div className="about_photo_wrap">
+                    <div className="about_photo"></div>
+                </div>
+                <div className="about_personality">
+                    <h4 className="about_title">성격</h4>
+                    <p className="about_sub_title">장점</p>
+                    <ul className="dot">
+                        <li>유쾌하고 긍정적인 에너지가 많아요.</li>
+                        <li>감정 조절에 능해 어려운 상황에도 침착하게 대처합니다.</li>
+                        <li>주변과 소통을 자주 하며, 협업을 중요하게 생각합니다.</li>
+                        <li>공과 사를 잘 구분해 일에 집중할 줄 압니다.</li>
+                        <li>새로운 지식과 경험을 얻는 것을 즐깁니다.</li>
+                        <li>호기심이 많고, 행동으로 옮기는 것을 두려워하지 않습니다.</li>
+                    </ul>
+                    <p className="about_sub_title">단점</p>
+                    <ul className="dot">
+                        <li>효율성을 중시하다 보니 반복적이거나 답답한 상황을 힘들어할 때가 있습니다.</li>
+                        <li>때때로 솔직하게 말하는 편이라, 직설적으로 보일 수 있습니다.</li>
+                        <li>귀차니즘이 찾아올 때도 있지만, 해야 할 일은 꼭 끝까지 해내는 책임감이 있습니다.</li>
+                        <li>공과 사를 너무 잘 구분하려다 보니, 가끔 융통성이 부족하게 느껴질 수 있습니다.</li>
+                    </ul>
+                </div>
 
-            <div className="skill_chart">
-                {skills.map((skill, idx) => (
-                    <div className="skill_bar" key={idx}>
-                        <span className="skill_name">{skill.name}</span>
-                        <div className="skill_track">
-                            <div
-                                className="skill_fill"
-                                style={{ width: `${skill.level}%` }}
-                                data-percent={skill.level}
-                            />
-                        </div>
-                    </div>
-                ))}
+                <div className="about_skills">
+                    <h4 className="about_title">스킬</h4>
+                    <p className="about_sub_title">다양한 웹 환경(PHP, ASP 등)에서 퍼블리싱을 진행해 왔으며, <br className="mmVar" />
+                        구조 파악과 수정, 응용이 가능합니다.</p>
+                    <ul className="graph">
+                        <li data-graph="100">Html</li>
+                        <li data-graph="100">Css</li>
+                        <li data-graph="80">Javascript</li>
+                        <li data-graph="50">React</li>
+                        <li data-graph="50">PHP</li>
+                    </ul>
+                </div>
             </div>
         </section>
     );

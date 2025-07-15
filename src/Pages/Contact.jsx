@@ -1,5 +1,4 @@
 import { FiMail, FiPhone, FiUser, FiMessageCircle } from "react-icons/fi";
-import OpenKakao from '../Images/init/KakaoTalk.png'
 
 export default function Contact() {
   return (
@@ -20,8 +19,8 @@ export default function Contact() {
         </div>
         
         <div className="contact-qr">
-          <img src={OpenKakao} alt="카카오톡 QR" />
-          <div className="qr-label">카톡 QR로도 연락 가능</div>
+          <img src="/portfolio/init/KakaoTalk.png" alt="카카오톡 QR" />
+          {/* <div className="qr-label">카톡 QR로도 연락 가능</div> */}
         </div>
       </div>
     </section>
